@@ -1,6 +1,7 @@
 //
 // The "switch" statement lets you match the possible values of an
 // expression and perform a different action for each.
+
 //
 // This switch:
 //
@@ -46,6 +47,7 @@ pub fn main() void {
             // match for every possible value).  Please add an "else"
             // to this switch to print a question mark "?" when c is
             // not one of the existing matches.
+            else => std.debug.print("?", .{}),
         }
     }
 
